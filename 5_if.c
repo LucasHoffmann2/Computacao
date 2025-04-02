@@ -7,7 +7,7 @@ int main ()
     scanf("%f %f %f", &n1, &n2, &n3);
     media = (n1 + n2 +n3) / 3;
 
-    if (media >= 8)
+    if (media >8)
 
         printf("aprovado com distincao. ");
     else if (media >=6)
