@@ -12,7 +12,7 @@ int main ()
         printf("aprovado com distincao. ");
     else if (media >=6)
         printf("aprovado direto. ");
-    else if (media >=3)
+    else if (media >=4)
         printf("vai para a final");
     else
         printf("reprovado. ");
