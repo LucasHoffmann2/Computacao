@@ -24,7 +24,7 @@ int main()
         printf("gasolina é melhor");
     }
     else (con1==con2)
-        printf("nao tem diferença")
+        printf("nao tem diferença");
         return 0;
 
 }
