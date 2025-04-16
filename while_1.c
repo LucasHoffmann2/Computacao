@@ -6,11 +6,11 @@ int main()
     int numero = 1;
     maior = -1;
 
-    printf("Digite números inteiros (e um valor negativo para parar):\n");
+    printf("Digite nÃºmeros inteiros (e um valor negativo para parar):\n");
 
     while (numero)
     {
-        printf("Digite um número: ");
+        printf("Digite um nÃºmero: ");
         scanf("%d", &num);
 
         if (num < 0)
