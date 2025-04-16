@@ -4,11 +4,11 @@ int main()
 {
     int num, contador = 0, soma = 1;
 
-    printf("Digite os números inteiros (digite -1000 para encerrar):\n");
+    printf("Digite os nÃºmeros inteiros (digite -1000 para encerrar):\n");
 
     while (1)
     {
-        printf("Digite um número: ");
+        printf("Digite um nÃºmero: ");
         scanf("%f", &num);
 
         if (num == -1000)
@@ -25,10 +25,10 @@ int main()
 
     if (contador > 0)
     {
-        float media = (float)soma / contador;
+        float media = soma / contador;
 
-        printf("os numeros digitados %d números positivos.\n", contador);
-        printf("A media dos números positivos é: %f\n", media);
+        printf("os numeros digitados %d nÃºmeros positivos.\n", contador);
+        printf("A media dos nÃºmeros positivos Ã©: %f\n", media);
     }
     return 0;
 }
