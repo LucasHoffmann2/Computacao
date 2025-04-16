@@ -4,7 +4,7 @@ int main()
 {
     int num, contador = 0, soma = 0;
 
-    printf("Digite os números inteiros (digite -1000 para encerrar):\n");
+    printf("Digite os números cinco inteiros (digite -1000 para encerrar):\n");
 
     while (1)
     {
