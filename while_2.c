@@ -2,7 +2,7 @@
 
 int main()
 {
-    int num, contador = 0, soma = 1;
+    int num, contador = 0, soma = 0;
 
     printf("Digite os números inteiros (digite -1000 para encerrar):\n");
 
