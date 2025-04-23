@@ -15,11 +15,8 @@ int main()
 
     printf("Area do quarto: %.0f metros quadrados\n", area);
 
-    for (int i = area2; i++;)
-    {
-        area = area2;
-        area2 = i - porta;
-    }
+area2 = area - porta
+    
     printf("Area do quarto com a porta %f\n", area2);
     return 0;
 }
