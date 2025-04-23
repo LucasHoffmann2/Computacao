@@ -14,9 +14,7 @@ int main()
     for(int i = num_inicio; i <= num_fim;)
     {
         if (numero * num_inicio > num_fim)
-        {
-            break;
-        }
+        
         conta = conta + numero + num_inicio;
 
         num_inicio++;
