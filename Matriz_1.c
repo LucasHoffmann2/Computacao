@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <time.h>
 
-#define LINHAS 5
-#define COLUNAS 5
-#define LINHAS2 5
-#define COLUNAS2 5
+#define LINHAS 3
+#define COLUNAS 3
+#define LINHAS2 3
+#define COLUNAS2 3
 
 int main()
 {
@@ -18,19 +18,24 @@ int main()
         for(int j=0; j<COLUNAS; j++)
         {
 
+
             m[i][j] = rand()%100+1;
             printf("m=[%d, %d]\n", i, j, m[i][j]);
         }
+              printf("\n");
+
     }
-    for(int k=0; k<LINHAS2; k++)
+    for(int i=0; i<LINHAS2; i++)
     {
-        for(int l=0; l<COLUNAS2; l++)
+        for(int j=0; j<COLUNAS2; j++)
         {
-            printf("m=[%d, %d]\n", i, j, t[k][l]);
+                t[j][i] = m[i][j];
+                          printf("t=[%d, %d]\n", i, j, t[i][j]);
+            }
+      printf("\n");
         }
+
+
+        return 0;
+
     }
-
-
-    return 0;
-
-}
