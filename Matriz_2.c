@@ -11,7 +11,6 @@ void preencherM(int matriz[TAM][TAM])
 void imprimeM(int matriz[TAM][TAM])
 {
     for(int i = 0; i< TAM; i++)
-        prinf("\n");
     for(int j = 0 ; j< TAM; j++)
         printf("%d", matriz[i][j]);
     printf("\n");
