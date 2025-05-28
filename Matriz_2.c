@@ -21,6 +21,12 @@ void somarM(int a[TAM][TAM], int b[TAM][TAM], int resultado[TAM][TAM])
         for(int j = 0 ; j < TAM; j++)
             resultado[i][j] = a[i][j] + b[i][j];
 }
+void subtrairM(int a[TAM][TAM], int b[TAM][TAM], int resultado[TAM][TAM])
+{
+    for(int i = 0; i< TAM; i++)
+        for(int j = 0 ; j < TAM; j++)
+            resultado[i][j] = a[i][j] - b[i][j];
+}
 int main()
 {
     int matriz1 [TAM][TAM], matriz2 [TAM][TAM], soma[TAM][TAM], subtracao [TAM][TAM];
@@ -39,6 +45,9 @@ int main()
     printf("\n Soma das matrizes:\n");
     imprimeM(soma);
 
+    subtrairM(matriz1, matriz2, subtracao);
+    printf("\n Subtracao das matrizes:\n");
+    imprimeM(subtracao);
 
     return 0;
 }
