@@ -34,7 +34,7 @@ int main() {
             printf("Nome encontrado: %s\n", nomeBusca);
             break;
         } else {
-            printf("Este nome n„o est· entre os 3 outros.\n");
+            printf("Este nome n√£o est√° entre os 3 outros.\n");
         }
     }
     return 0;
